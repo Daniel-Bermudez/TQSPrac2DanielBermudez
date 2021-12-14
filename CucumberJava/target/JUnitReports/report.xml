@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="30" time="513.841">
+    <testcase classname="Utilizar el buscador de la pagina" name="Utilizar el buscador con palabras con coincidencia" time="16.806">
+        <system-out><![CDATA[Given abrir navegador Carrito Buscador......................................passed
+And entrar en la pagina web Carrito Buscador................................passed
+And clicar buscador.........................................................passed
+And escribir buscador.......................................................passed
+And enter buscador..........................................................passed
+Then Comprobar Buscador.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Utilizar el buscador de la pagina" name="Utilizar el buscador con palabras sin coincidencia" time="12.619">
+        <system-out><![CDATA[Given abrir navegador Carrito Buscador......................................passed
+And entrar en la pagina web Carrito Buscador................................passed
+And clicar buscador.........................................................passed
+And escribir buscador2......................................................passed
+And enter buscador..........................................................passed
+Then Comprobar Buscador2....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Utilizar el buscador de la pagina" name="Utilizar el buscador vacio" time="12.958">
+        <system-out><![CDATA[Given abrir navegador Carrito Buscador......................................passed
+And entrar en la pagina web Carrito Buscador................................passed
+And clicar buscador.........................................................passed
+And enter buscador..........................................................passed
+Then Comprobar Buscador3....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Concretar productos con parametros Tipo talla" name="Seleccionar productos concretos por talla incorrecta" time="13.346">
+        <system-out><![CDATA[Given abrir navegador Parametro.............................................passed
+And entrar en la pagina web Parametro.......................................passed
+And Clicar Categoria........................................................passed
+And Clicar talla............................................................passed
+And Elegir talla............................................................passed
+And Abrir producto1.........................................................passed
+And Add al carro............................................................passed
+Then Comprobar prendas se ajustan a la talla dada desde el carro incorrecto.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Concretar productos con parametros Tipo talla" name="Seleccionar productos concretos por talla correcta" time="16.157">
+        <system-out><![CDATA[Given abrir navegador Parametro.............................................passed
+And entrar en la pagina web Parametro.......................................passed
+And Clicar Categoria........................................................passed
+And Clicar talla............................................................passed
+And Elegir talla............................................................passed
+And Abrir producto1.........................................................passed
+And Especificar_talla.......................................................passed
+And Add al carro............................................................passed
+Then Comprobar prendas se ajustan a la talla dada desde el carro............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Concretar productos con parametros Tipo talla" name="Seleccionar productos concretos por tipo de prenda" time="14.031">
+        <system-out><![CDATA[Given abrir navegador Parametro.............................................passed
+And entrar en la pagina web Parametro.......................................passed
+And Clicar Categoria........................................................passed
+And Clicar Tipo Prenda......................................................passed
+And Elegir Tipo Prenda......................................................passed
+And Abrir producto1.........................................................passed
+And Add al carro............................................................passed
+Then Comprobar prendas se ajustan al tipo de prenda dada desde el carro.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Add Productos carrito" name="Add 3 productos iguales al carrito misma categoria" time="25.735">
+        <system-out><![CDATA[Given abrir navegador Carrito...............................................passed
+And entrar en la pagina web Carrito.........................................passed
+And Categoria...............................................................passed
+And Producto1...............................................................passed
+And LoQuiero................................................................passed
+And Categoria...............................................................passed
+And Producto1...............................................................passed
+And LoQuiero................................................................passed
+And Categoria...............................................................passed
+And Producto1...............................................................passed
+And LoQuiero................................................................passed
+And clicar Carrito..........................................................passed
+Then Comprobar productos carrito iguales....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Add Productos carrito" name="Add 3 productos diferentes al carrito misma categoria" time="19.747">
+        <system-out><![CDATA[Given abrir navegador Carrito...............................................passed
+And entrar en la pagina web Carrito.........................................passed
+And Categoria...............................................................passed
+And Producto1...............................................................passed
+And LoQuiero................................................................passed
+And Categoria...............................................................passed
+And Producto2...............................................................passed
+And LoQuiero................................................................passed
+And Categoria...............................................................passed
+And Producto3...............................................................passed
+And LoQuiero................................................................passed
+And clicar Carrito..........................................................passed
+Then Comprobar productos carrito distintos..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Add Productos carrito" name="Add 3 productos diferentes al carrito diferente categoria" time="26.631">
+        <system-out><![CDATA[Given abrir navegador Carrito...............................................passed
+And entrar en la pagina web Carrito.........................................passed
+And Categoria...............................................................passed
+And Producto1...............................................................passed
+And LoQuiero................................................................passed
+And Categoria2..............................................................passed
+And Producto2...............................................................passed
+And LoQuiero................................................................passed
+And Categoria3..............................................................passed
+And Producto3...............................................................passed
+And LoQuiero................................................................passed
+And clicar Carrito..........................................................passed
+Then Comprobar productos carrito distintos..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test enlaces extras de Valentina" name="Testear enlace ValentinaTV" time="17.307">
+        <system-out><![CDATA[Given abrir navegador enlaces...............................................passed
+And entrar en la pagina web enlaces.........................................passed
+And clicar Valentina........................................................passed
+And clicar ValentinaTV......................................................passed
+And clicar primervideo......................................................passed
+Then Comprobar que estamos pagina de videos tv..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test enlaces extras de Valentina" name="Testear Newsletter subscripcion" time="15.634">
+        <system-out><![CDATA[Given abrir navegador enlaces...............................................passed
+And entrar en la pagina web enlaces.........................................passed
+And clicar Valentina........................................................passed
+And clicar newsletter.......................................................passed
+And introducir email........................................................passed
+Then Comprobar que se ha validado correctamente.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test enlaces extras de Valentina" name="Testear web de tiendas y si la primera es Madrid" time="13.798">
+        <system-out><![CDATA[Given abrir navegador enlaces...............................................passed
+And entrar en la pagina web enlaces.........................................passed
+And clicar Valentina........................................................passed
+And clicar tiendaFisica.....................................................passed
+And clicar primera tienda...................................................passed
+Then Comprobar que la primera tienda esta en Madrid.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test envio gratis" name="Suman envio gratis" time="27.37">
+        <system-out><![CDATA[Given abrir navegador EG....................................................passed
+And entrar en la pagina web EG..............................................passed
+And Clicar Ropa.............................................................passed
+And Clicar primer producto..................................................passed
+And Add al carrito EG.......................................................passed
+And clicar incrementar......................................................passed
+And clicar incrementar......................................................passed
+And clicar incrementar......................................................passed
+And clicar incrementar......................................................passed
+And clicar incrementar......................................................passed
+And clicar incrementar......................................................passed
+Then Comprobar que el envio es gratis.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test envio gratis" name="No suman envio gratis" time="17.438">
+        <system-out><![CDATA[Given abrir navegador EG....................................................passed
+And entrar en la pagina web EG..............................................passed
+And Clicar Ropa.............................................................passed
+And Clicar primer producto..................................................passed
+And Add al carrito EG.......................................................passed
+And clicar incrementar......................................................passed
+Then Comprobar que el envio no es gratis....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test envio gratis" name="Testear aviso de cuanto nos falta para envio gratis" time="11.914">
+        <system-out><![CDATA[Given abrir navegador EG....................................................passed
+And entrar en la pagina web EG..............................................passed
+And Clicar Ropa.............................................................passed
+And Clicar primer producto..................................................passed
+And Add al carrito EG.......................................................passed
+And clicar incrementar......................................................passed
+Then Comprobar aviso........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Incrementar/Decrementar el mismo producto desde el carrito o borrarlo" name="Add 3 productos iguales al carrito y luego incrementar 1 desde carrito" time="23.61">
+        <system-out><![CDATA[Given abrir navegador Carrito Inc/Dec.......................................passed
+And entrar en la pagina web Carrito Inc/Dec.................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And clicar Carrito Inc/Dec..................................................passed
+And Incrementar producto....................................................passed
+Then Comprobar Incremento...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Incrementar/Decrementar el mismo producto desde el carrito o borrarlo" name="Add 3 productos iguales al carrito y luego decrementar 1 desde carrito" time="17.715">
+        <system-out><![CDATA[Given abrir navegador Carrito Inc/Dec.......................................passed
+And entrar en la pagina web Carrito Inc/Dec.................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And clicar Carrito Inc/Dec..................................................passed
+And Decrementar producto....................................................passed
+Then Comprobar Decremento...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Incrementar/Decrementar el mismo producto desde el carrito o borrarlo" name="Add 3 productos iguales al carrito y luego Borrarlo" time="22.022">
+        <system-out><![CDATA[Given abrir navegador Carrito Inc/Dec.......................................passed
+And entrar en la pagina web Carrito Inc/Dec.................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And Categoria Inc/Dec.......................................................passed
+And Producto1 Inc/Dec.......................................................passed
+And LoQuiero Inc/Dec........................................................passed
+And clicar Carrito Inc/Dec..................................................passed
+And Borrar producto.........................................................passed
+Then Comprobar Borrado......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Login a un usuario" name="Login a un usuario con un user y password existente" time="14.474">
+        <system-out><![CDATA[Given abrir navegador login.................................................passed
+And entrar en la pagina web login...........................................passed
+And Opciones login..........................................................passed
+And IniciarSesion login.....................................................passed
+And Registrarse o IniciarSesion.............................................passed
+When introducir correo y password existentes................................passed
+And clicar a Iniciar Sesion.................................................passed
+Then Comprobar login correcto...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Login a un usuario" name="Login a un usuario con un user y password nuevos" time="8.547">
+        <system-out><![CDATA[Given abrir navegador login.................................................passed
+And entrar en la pagina web login...........................................passed
+And Opciones login..........................................................passed
+And IniciarSesion login.....................................................passed
+And Registrarse o IniciarSesion.............................................passed
+When introducir correo y password nuevos....................................passed
+And clicar a Iniciar Sesion.................................................passed
+Then Comprobar login incorrecto.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Login a un usuario" name="Login password olvidado" time="11.109">
+        <system-out><![CDATA[Given abrir navegador login.................................................passed
+And entrar en la pagina web login...........................................passed
+And Opciones login..........................................................passed
+And IniciarSesion login.....................................................passed
+And Registrarse o IniciarSesion.............................................passed
+And clicar a password olvidada..............................................passed
+Then Comprobar pantalla escribe tu email....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Comprobar oferta dos por veinticinco" name="Add dos productos iguales al carrito misma categoria" time="20.496">
+        <system-out><![CDATA[Given abrir navegador oferta................................................passed
+And entrar en la pagina web oferta..........................................passed
+And Categoria oferta........................................................passed
+And Producto1 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And Categoria oferta........................................................passed
+And Producto1 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And clicar Carrito oferta...................................................passed
+Then Comprobar si aplica la oferta mismo producto...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Comprobar oferta dos por veinticinco" name="Add dos productos diferentes al carrito misma categoria" time="19.446">
+        <system-out><![CDATA[Given abrir navegador oferta................................................passed
+And entrar en la pagina web oferta..........................................passed
+And Categoria oferta........................................................passed
+And Producto1 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And Categoria oferta........................................................passed
+And Producto2 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And clicar Carrito oferta...................................................passed
+Then Comprobar si aplica la oferta misma categoria..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Comprobar oferta dos por veinticinco" name="Add tres productos iguales al carrito misma categoria" time="18.028">
+        <system-out><![CDATA[Given abrir navegador oferta................................................passed
+And entrar en la pagina web oferta..........................................passed
+And Categoria oferta........................................................passed
+And Producto1 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And Categoria oferta........................................................passed
+And Producto1 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And Categoria oferta........................................................passed
+And Producto1 oferta........................................................passed
+And LoQuiero oferta.........................................................passed
+And clicar Carrito oferta...................................................passed
+Then Comprobar si aplica la oferta al tener tres productos..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Probar opciones Mi cuenta, Pedidos, Salir" name="Salir cuenta (Primero haremos login)" time="22.957">
+        <system-out><![CDATA[Given abrir navegador Opciones..............................................passed
+And entrar en la pagina web Opciones........................................passed
+And Opciones Opciones.......................................................passed
+And IniciarSesion Opciones..................................................passed
+And Registrarse o IniciarSesion Opciones....................................passed
+When introducir correo y password existentes Opciones.......................passed
+And clicar a Iniciar Sesion  Opciones.......................................passed
+And Opciones Opciones.......................................................passed
+Then comprobar que estamos Opciones login...................................passed
+And clicar Salir............................................................passed
+And Opciones Opciones.......................................................passed
+Then comprobar que ya no estamos Opciones...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Probar opciones Mi cuenta, Pedidos, Salir" name="Mis pedidos (Primero haremos login, No tienes pedidos todavia)" time="13.588">
+        <system-out><![CDATA[Given abrir navegador Opciones..............................................passed
+And entrar en la pagina web Opciones........................................passed
+And Opciones Opciones.......................................................passed
+And IniciarSesion Opciones..................................................passed
+And Registrarse o IniciarSesion Opciones....................................passed
+When introducir correo y password existentes Opciones.......................passed
+And clicar a Iniciar Sesion  Opciones.......................................passed
+And Opciones Opciones.......................................................passed
+And Opciones Mis pedidos....................................................passed
+Then comprobar que estamos en mis pedidos...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Probar opciones Mi cuenta, Pedidos, Salir" name="Mi cuenta (Primero haremos login)" time="14.395">
+        <system-out><![CDATA[Given abrir navegador Opciones..............................................passed
+And entrar en la pagina web Opciones........................................passed
+And Opciones Opciones.......................................................passed
+And IniciarSesion Opciones..................................................passed
+And Registrarse o IniciarSesion Opciones....................................passed
+When introducir correo y password existentes Opciones.......................passed
+And clicar a Iniciar Sesion  Opciones.......................................passed
+And Opciones Opciones.......................................................passed
+And Opciones Mi Cuenta......................................................passed
+Then comprobar que estamos en Mi cuenta.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Registrar a un usuario" name="Registrar a un usuario con un user y password existente con nombre y apellido" time="14.809">
+        <system-out><![CDATA[Given abrir navegador.......................................................passed
+And entrar en la pagina web.................................................passed
+And Opciones................................................................passed
+And Registrarse.............................................................passed
+And Registrarse IniciarSesion...............................................passed
+When introducir nombre y password existentes................................passed
+And clicar a aceptar........................................................passed
+Then usuario puede navegar por la pagina de inicio cuenta existente.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Registrar a un usuario" name="Registrar a un usuario con un user y password nuevo con nombre y apellido" time="14.332">
+        <system-out><![CDATA[Given abrir navegador.......................................................passed
+And entrar en la pagina web.................................................passed
+And Opciones................................................................passed
+And Registrarse.............................................................passed
+And Registrarse IniciarSesion...............................................passed
+When introducir nombre y password...........................................passed
+And clicar a aceptar........................................................passed
+Then usuario puede navegar por la pagina de inicio cuenta nueva.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Registrar a un usuario" name="Registrar a un usuario con un user y password nuevo sin nombre y apellido" time="16.501">
+        <system-out><![CDATA[Given abrir navegador.......................................................passed
+And entrar en la pagina web.................................................passed
+And Opciones................................................................passed
+And Registrarse.............................................................passed
+And Registrarse IniciarSesion...............................................passed
+When introducir Correo y password...........................................passed
+And clicar a aceptar........................................................passed
+Then Comprobar si deja registrarse sin nombre...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

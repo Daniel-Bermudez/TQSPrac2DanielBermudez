@@ -1,0 +1,3790 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:09:32.332Z",
+        "line": 3,
+        "name": "Utilizar el buscador con palabras con coincidencia",
+        "description": "",
+        "id": "utilizar-el-buscador-de-la-pagina;utilizar-el-buscador-con-palabras-con-coincidencia",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1386011500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador Carrito Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.abrir_navegador_Carrito_Buscador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3488026600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web Carrito Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.entrar_en_la_pagina_web_Carrito_Buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54426400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicar buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.clicar_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144070100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "escribir buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.escribir_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963320400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.enter_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10716413300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Comprobar Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.comprobar_Buscador()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:09:49.151Z",
+        "line": 11,
+        "name": "Utilizar el buscador con palabras sin coincidencia",
+        "description": "",
+        "id": "utilizar-el-buscador-de-la-pagina;utilizar-el-buscador-con-palabras-sin-coincidencia",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 870316600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "abrir navegador Carrito Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.abrir_navegador_Carrito_Buscador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3679408300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "entrar en la pagina web Carrito Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.entrar_en_la_pagina_web_Carrito_Buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76901200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicar buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.clicar_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32912500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "escribir buscador2",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.escribir_buscador2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1695479000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.enter_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6260345200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Comprobar Buscador2",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.comprobar_Buscador2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:10:01.774Z",
+        "line": 19,
+        "name": "Utilizar el buscador vacio",
+        "description": "",
+        "id": "utilizar-el-buscador-de-la-pagina;utilizar-el-buscador-vacio",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 723926400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "abrir navegador Carrito Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.abrir_navegador_Carrito_Buscador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4038430900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "entrar en la pagina web Carrito Buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.entrar_en_la_pagina_web_Carrito_Buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73373200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clicar buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.clicar_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1854036300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enter buscador",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.enter_buscador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6266829200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Comprobar Buscador3",
+            "match": {
+              "location": "StepDefinitions.BuscadorSteps.comprobar_Buscador3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Utilizar el buscador de la pagina",
+    "description": "",
+    "id": "utilizar-el-buscador-de-la-pagina",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Buscador.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:10:14.743Z",
+        "line": 3,
+        "name": "Seleccionar productos concretos por talla incorrecta",
+        "description": "",
+        "id": "test-concretar-productos-con-parametros-tipo-talla;seleccionar-productos-concretos-por-talla-incorrecta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 685430000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador Parametro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.abrir_navegador_Parametro()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3527861000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web Parametro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.entrar_en_la_pagina_web_Parametro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1102729100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicar Categoria",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.clicar_Categoria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63828600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicar talla",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.clicar_talla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 854879800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Elegir talla",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.elegir_talla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3599102900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Abrir producto1",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.abrir_producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1273782100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add al carro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.a_adir_al_carro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2231778300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Comprobar prendas se ajustan a la talla dada desde el carro incorrecto",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.comprobar_prendas_se_ajustan_a_la_talla_dada_desde_el_carro_incorrecto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:10:28.092Z",
+        "line": 13,
+        "name": "Seleccionar productos concretos por talla correcta",
+        "description": "",
+        "id": "test-concretar-productos-con-parametros-tipo-talla;seleccionar-productos-concretos-por-talla-correcta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 667284900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "abrir navegador Parametro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.abrir_navegador_Parametro()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3541699000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "entrar en la pagina web Parametro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.entrar_en_la_pagina_web_Parametro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1247364600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Clicar Categoria",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.clicar_Categoria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63829000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicar talla",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.clicar_talla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353267700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Elegir talla",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.elegir_talla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2591292400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Abrir producto1",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.abrir_producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63831500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Especificar_talla",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.especificar_talla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351539300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Add al carro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.a_adir_al_carro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6272197200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Comprobar prendas se ajustan a la talla dada desde el carro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.comprobar_prendas_se_ajustan_a_la_talla_dada_desde_el_carro()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:10:44.252Z",
+        "line": 24,
+        "name": "Seleccionar productos concretos por tipo de prenda",
+        "description": "",
+        "id": "test-concretar-productos-con-parametros-tipo-talla;seleccionar-productos-concretos-por-tipo-de-prenda",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 824986800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "abrir navegador Parametro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.abrir_navegador_Parametro()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4562693700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "entrar en la pagina web Parametro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.entrar_en_la_pagina_web_Parametro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160238400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Clicar Categoria",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.clicar_Categoria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80784100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Clicar Tipo Prenda",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.clicar_Tipo_Prenda()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333116700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Elegir Tipo Prenda",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.elegir_Tipo_Prenda()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800771900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Abrir producto1",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.abrir_producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036508500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Add al carro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.a_adir_al_carro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2227708600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Comprobar prendas se ajustan al tipo de prenda dada desde el carro",
+            "match": {
+              "location": "StepDefinitions.BuscadorConParametrosSteps.comprobar_prendas_se_ajustan_al_tipo_de_prenda_dada_desde_el_carro()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Concretar productos con parametros Tipo talla",
+    "description": "",
+    "id": "test-concretar-productos-con-parametros-tipo-talla",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BuscadorConParametros.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:10:58.294Z",
+        "line": 3,
+        "name": "Add 3 productos iguales al carrito misma categoria",
+        "description": "",
+        "id": "test-add-productos-carrito;add-3-productos-iguales-al-carrito-misma-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 754114800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.abrir_navegador_Carrito()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3452833500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.entrar_en_la_pagina_web_Carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1435854400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2235158900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Producto1",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1163461600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1274691200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1946165900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Producto1",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038931300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1101610100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1582368900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Producto1",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071385300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2407454300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicar Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.clicar_Carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6262136200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Comprobar productos carrito iguales",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.comprobar_productos_carrito_iguales()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:11:24.032Z",
+        "line": 18,
+        "name": "Add 3 productos diferentes al carrito misma categoria",
+        "description": "",
+        "id": "test-add-productos-carrito;add-3-productos-diferentes-al-carrito-misma-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 658729200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "abrir navegador Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.abrir_navegador_Carrito()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3448093200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "entrar en la pagina web Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.entrar_en_la_pagina_web_Carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492586600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1935946400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Producto1",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 980744600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 729511900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1506366500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Producto2",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1201545200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1122567700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1678142900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Producto3",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1046623300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2442748000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicar Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.clicar_Carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500705000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Comprobar productos carrito distintos",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.comprobar_productos_carrito_distintos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:11:43.783Z",
+        "line": 33,
+        "name": "Add 3 productos diferentes al carrito diferente categoria",
+        "description": "",
+        "id": "test-add-productos-carrito;add-3-productos-diferentes-al-carrito-diferente-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 549974200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "abrir navegador Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.abrir_navegador_Carrito()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3712041100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "entrar en la pagina web Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.entrar_en_la_pagina_web_Carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1656701600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Categoria",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1921218700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Producto1",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1710913300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1051570800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Categoria2",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1731470500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Producto2",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1134933700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1132561100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Categoria3",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.categoria3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048231300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Producto3",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.producto3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1253251300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "LoQuiero",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.loquiero1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2435124200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clicar Carrito",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.clicar_Carrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6292734400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Comprobar productos carrito distintos",
+            "match": {
+              "location": "StepDefinitions.CarritoAddSteps.comprobar_productos_carrito_distintos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Add Productos carrito",
+    "description": "",
+    "id": "test-add-productos-carrito",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CarritoAdd.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:12:10.419Z",
+        "line": 3,
+        "name": "Testear enlace ValentinaTV",
+        "description": "",
+        "id": "test-enlaces-extras-de-valentina;testear-enlace-valentinatv",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 639099100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador enlaces",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.abrir_navegador_enlaces()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4673050400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web enlaces",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.entrar_en_la_pagina_web_enlaces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2773490400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicar Valentina",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_Valentina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 748270700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicar ValentinaTV",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_ValentinaTV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2159536200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicar primervideo",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_primervideo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6311539400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Comprobar que estamos pagina de videos tv",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.comprobar_que_estamos_pagina_de_videos_tv()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:12:27.729Z",
+        "line": 11,
+        "name": "Testear Newsletter subscripcion",
+        "description": "",
+        "id": "test-enlaces-extras-de-valentina;testear-newsletter-subscripcion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 659856400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "abrir navegador enlaces",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.abrir_navegador_enlaces()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3616780700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "entrar en la pagina web enlaces",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.entrar_en_la_pagina_web_enlaces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2686651700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicar Valentina",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_Valentina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1345506800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicar newsletter",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_newsletter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126030400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "introducir email",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.introducir_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6196577300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Comprobar que se ha validado correctamente",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.comprobar_que_se_ha_validado_correctamente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:12:43.366Z",
+        "line": 19,
+        "name": "Testear web de tiendas y si la primera es Madrid",
+        "description": "",
+        "id": "test-enlaces-extras-de-valentina;testear-web-de-tiendas-y-si-la-primera-es-madrid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 625702900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "abrir navegador enlaces",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.abrir_navegador_enlaces()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3591069800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "entrar en la pagina web enlaces",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.entrar_en_la_pagina_web_enlaces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2407624600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clicar Valentina",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_Valentina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637681200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicar tiendaFisica",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_tiendaFisica()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260749600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicar primera tienda",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.clicar_primera_tienda()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6273351200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Comprobar que la primera tienda esta en Madrid",
+            "match": {
+              "location": "StepDefinitions.EnlacesPrincipales.comprobar_que_la_primera_tienda_esta_en_Madrid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test enlaces extras de Valentina",
+    "description": "",
+    "id": "test-enlaces-extras-de-valentina",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/EnlacesPrincipales.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:12:57.169Z",
+        "line": 3,
+        "name": "Suman envio gratis",
+        "description": "",
+        "id": "test-envio-gratis;suman-envio-gratis",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 622315100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.abrir_navegador_EG()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3431126900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.entrar_en_la_pagina_web_EG()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1533681700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicar Ropa",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_Ropa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124117000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicar primer producto",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_primer_producto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996187700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Add al carrito EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.add_al_carrito_EG()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056011200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069897000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065935300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059393300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070874800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2047413800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6289619100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Comprobar que el envio es gratis",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.comprobar_que_el_envio_es_gratis()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:13:24.542Z",
+        "line": 17,
+        "name": "No suman envio gratis",
+        "description": "",
+        "id": "test-envio-gratis;no-suman-envio-gratis",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 577480900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "abrir navegador EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.abrir_navegador_EG()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4961180100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "entrar en la pagina web EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.entrar_en_la_pagina_web_EG()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1574671200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Clicar Ropa",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_Ropa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1007389000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Clicar primer producto",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_primer_producto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 938471000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Add al carrito EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.add_al_carrito_EG()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096977800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6279101800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Comprobar que el envio no es gratis",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.comprobar_que_el_envio_no_es_gratis()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:13:41.982Z",
+        "line": 26,
+        "name": "Testear aviso de cuanto nos falta para envio gratis",
+        "description": "",
+        "id": "test-envio-gratis;testear-aviso-de-cuanto-nos-falta-para-envio-gratis",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 645710400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "abrir navegador EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.abrir_navegador_EG()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3485200900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "entrar en la pagina web EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.entrar_en_la_pagina_web_EG()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599914400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Clicar Ropa",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_Ropa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1301646000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Clicar primer producto",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_primer_producto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240578400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Add al carrito EG",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.add_al_carrito_EG()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084342100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "clicar incrementar",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.clicar_incrementar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2556342900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Comprobar aviso",
+            "match": {
+              "location": "StepDefinitions.EnvioGratis.comprobar_aviso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test envio gratis",
+    "description": "",
+    "id": "test-envio-gratis",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/EnvioGratis.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:13:53.901Z",
+        "line": 3,
+        "name": "Add 3 productos iguales al carrito y luego incrementar 1 desde carrito",
+        "description": "",
+        "id": "test-incrementar/decrementar-el-mismo-producto-desde-el-carrito-o-borrarlo;add-3-productos-iguales-al-carrito-y-luego-incrementar-1-desde-carrito",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 657130700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.abrir_navegador_Carrito_Inc_Dec()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4181502000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.entrar_en_la_pagina_web_Carrito_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 609990000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146800200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1530484500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160704100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3547600300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1046064900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1304328600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1703705700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065206000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2419748000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicar Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.clicar_Carrito_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51532900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Incrementar producto",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.incrementar_producto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2179603100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Comprobar Incremento",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.comprobar_incremento()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:14:17.514Z",
+        "line": 19,
+        "name": "Add 3 productos iguales al carrito y luego decrementar 1 desde carrito",
+        "description": "",
+        "id": "test-incrementar/decrementar-el-mismo-producto-desde-el-carrito-o-borrarlo;add-3-productos-iguales-al-carrito-y-luego-decrementar-1-desde-carrito",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 659269200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "abrir navegador Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.abrir_navegador_Carrito_Inc_Dec()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3464283300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "entrar en la pagina web Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.entrar_en_la_pagina_web_Carrito_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1348988800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760676900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1269235500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486692900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710478000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 789205700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 506348600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 596032500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723853400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2782528000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clicar Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.clicar_Carrito_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56627200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Decrementar producto",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.decrementar_producto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2557969000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Comprobar Decremento",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.comprobar_decremento()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:14:35.233Z",
+        "line": 35,
+        "name": "Add 3 productos iguales al carrito y luego Borrarlo",
+        "description": "",
+        "id": "test-incrementar/decrementar-el-mismo-producto-desde-el-carrito-o-borrarlo;add-3-productos-iguales-al-carrito-y-luego-borrarlo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 563607600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "abrir navegador Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.abrir_navegador_Carrito_Inc_Dec()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4345739200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "entrar en la pagina web Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.entrar_en_la_pagina_web_Carrito_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078467700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1766250900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 981303300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1164321900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1780273200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 739819700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1299522400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Categoria Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.categoria_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1831854600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Producto1 Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.producto1_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855366700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "LoQuiero Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.loquiero_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2438363400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "clicar Carrito Inc/Dec",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.clicar_Carrito_Inc_Dec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 886383500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Borrar producto",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.borrar_producto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2288707200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Comprobar Borrado",
+            "match": {
+              "location": "StepDefinitions.IncDecProductoCarrito.comprobar_Borrado()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Incrementar/Decrementar el mismo producto desde el carrito o borrarlo",
+    "description": "",
+    "id": "test-incrementar/decrementar-el-mismo-producto-desde-el-carrito-o-borrarlo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/IncDecProductoCarrito.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:14:57.265Z",
+        "line": 3,
+        "name": "Login a un usuario con un user y password existente",
+        "description": "",
+        "id": "test-login-a-un-usuario;login-a-un-usuario-con-un-user-y-password-existente",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 638558400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.abrir_navegador_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4108609700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.entrar_en_la_pagina_web_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64122400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Opciones login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Opciones_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1149577500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "IniciarSesion login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.iniciarsesion_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102725800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Registrarse o IniciarSesion",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Registrarse_o_IniciarSesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148160600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "introducir correo y password existentes",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.introducir_correo_y_password_existentes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1956679900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar a Iniciar Sesion",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicar_a_Iniciar_Sesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6298658900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Comprobar login correcto",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Comprobar_login_correcto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:15:11.742Z",
+        "line": 13,
+        "name": "Login a un usuario con un user y password nuevos",
+        "description": "",
+        "id": "test-login-a-un-usuario;login-a-un-usuario-con-un-user-y-password-nuevos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 688321600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "abrir navegador login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.abrir_navegador_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3444886100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "entrar en la pagina web login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.entrar_en_la_pagina_web_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57100600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Opciones login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Opciones_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 784208800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "IniciarSesion login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.iniciarsesion_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44002000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Registrarse o IniciarSesion",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Registrarse_o_IniciarSesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322168300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "introducir correo y password nuevos",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.introducir_correo_y_password_nuevos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1014013000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicar a Iniciar Sesion",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicar_a_Iniciar_Sesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2191601000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Comprobar login incorrecto",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Comprobar_login_incorrecto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:15:20.297Z",
+        "line": 23,
+        "name": "Login password olvidado",
+        "description": "",
+        "id": "test-login-a-un-usuario;login-password-olvidado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 655216600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "abrir navegador login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.abrir_navegador_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3429854400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "entrar en la pagina web login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.entrar_en_la_pagina_web_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59568700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Opciones login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Opciones_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501529600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "IniciarSesion login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.iniciarsesion_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51862000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Registrarse o IniciarSesion",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Registrarse_o_IniciarSesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146483800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "clicar a password olvidada",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicar_a_password_olvidada()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6261112600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Comprobar pantalla escribe tu email",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.Comprobar_pantalla_escribe_tu_email()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login a un usuario",
+    "description": "",
+    "id": "test-login-a-un-usuario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:15:31.413Z",
+        "line": 3,
+        "name": "Add dos productos iguales al carrito misma categoria",
+        "description": "",
+        "id": "test-comprobar-oferta-dos-por-veinticinco;add-dos-productos-iguales-al-carrito-misma-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 661260900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.abrir_navegador_oferta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3460675500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.entrar_en_la_pagina_web_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1005994900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2015004300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Producto1 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto1_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1316067500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812775400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1506119300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Producto1 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto1_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1051337000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2421386000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar Carrito oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.clicar_Carrito_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6239806000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Comprobar si aplica la oferta mismo producto",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.comprobar_si_aplica_la_oferta_mismo_producto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:15:51.912Z",
+        "line": 15,
+        "name": "Add dos productos diferentes al carrito misma categoria",
+        "description": "",
+        "id": "test-comprobar-oferta-dos-por-veinticinco;add-dos-productos-diferentes-al-carrito-misma-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 548202300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "abrir navegador oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.abrir_navegador_oferta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3479939100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "entrar en la pagina web oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.entrar_en_la_pagina_web_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763222600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1666399200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Producto1 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto1_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764933400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410817100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1541475700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Producto2 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto2_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1068077200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2405068700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicar Carrito oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.clicar_Carrito_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6796045300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Comprobar si aplica la oferta misma categoria",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.comprobar_si_aplica_la_oferta_misma_categoria()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:16:11.362Z",
+        "line": 27,
+        "name": "Add tres productos iguales al carrito misma categoria",
+        "description": "",
+        "id": "test-comprobar-oferta-dos-por-veinticinco;add-tres-productos-iguales-al-carrito-misma-categoria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 941543400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "abrir navegador oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.abrir_navegador_oferta()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4216065600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "entrar en la pagina web oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.entrar_en_la_pagina_web_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 474560100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528551900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Producto1 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto1_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893702000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518491700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 745069900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Producto1 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto1_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767101700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 903701600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Categoria oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.categoria_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095672500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Producto1 oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.producto1_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1052621400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "LoQuiero oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.loquiero_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2403147300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clicar Carrito oferta",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.clicar_Carrito_oferta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2488242900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Comprobar si aplica la oferta al tener tres productos",
+            "match": {
+              "location": "StepDefinitions.Oferta2por25Steps.comprobar_si_aplica_la_oferta_al_tener_tres_productos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Comprobar oferta dos por veinticinco",
+    "description": "",
+    "id": "test-comprobar-oferta-dos-por-veinticinco",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Oferta2por25.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:16:29.394Z",
+        "line": 3,
+        "name": "Salir cuenta (Primero haremos login)",
+        "description": "",
+        "id": "test-probar-opciones-mi-cuenta--pedidos--salir;salir-cuenta-(primero-haremos-login)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 636959400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.abrir_navegador_Opciones()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3470238400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.entrar_en_la_pagina_web_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2055789900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672210500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "IniciarSesion Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.iniciarsesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47862600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Registrarse o IniciarSesion Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.registrarse_o_IniciarSesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292220500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "introducir correo y password existentes Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.introducir_correo_y_password_existentes_Opciones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1521419500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar a Iniciar Sesion  Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.clicar_a_Iniciar_Sesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051952200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2044932800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "comprobar que estamos Opciones login",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.comprobar_que_estamos_Opciones_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1732579500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar Salir",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.clicar_Salir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074844200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6354243500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "comprobar que ya no estamos Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.comprobar_que_ya_no_estamos_Opciones()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:16:52.355Z",
+        "line": 17,
+        "name": "Mis pedidos (Primero haremos login, No tienes pedidos todavia)",
+        "description": "",
+        "id": "test-probar-opciones-mi-cuenta--pedidos--salir;mis-pedidos-(primero-haremos-login--no-tienes-pedidos-todavia)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 582493900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "abrir navegador Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.abrir_navegador_Opciones()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3474227400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "entrar en la pagina web Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.entrar_en_la_pagina_web_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2054108800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561498500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "IniciarSesion Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.iniciarsesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58842400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Registrarse o IniciarSesion Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.registrarse_o_IniciarSesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323136000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "introducir correo y password existentes Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.introducir_correo_y_password_existentes_Opciones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1444874400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicar a Iniciar Sesion  Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.clicar_a_Iniciar_Sesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056394700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 871904800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Opciones Mis pedidos",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Mis_pedidos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2158732400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "comprobar que estamos en mis pedidos",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.comprobar_que_estamos_en_mis_pedidos()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:17:05.946Z",
+        "line": 30,
+        "name": "Mi cuenta (Primero haremos login)",
+        "description": "",
+        "id": "test-probar-opciones-mi-cuenta--pedidos--salir;mi-cuenta-(primero-haremos-login)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 638680200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "abrir navegador Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.abrir_navegador_Opciones()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3882380800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "entrar en la pagina web Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.entrar_en_la_pagina_web_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059278500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 834879500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "IniciarSesion Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.iniciarsesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46874200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Registrarse o IniciarSesion Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.registrarse_o_IniciarSesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332113500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "introducir correo y password existentes Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.introducir_correo_y_password_existentes_Opciones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1445867300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "clicar a Iniciar Sesion  Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.clicar_a_Iniciar_Sesion_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2066395900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Opciones Opciones",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906981600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Opciones Mi Cuenta",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.opciones_Mi_Cuenta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2180190300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "comprobar que estamos en Mi cuenta",
+            "match": {
+              "location": "StepDefinitions.OpcionesSteps.comprobar_que_estamos_en_Mi_cuenta()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Probar opciones Mi cuenta, Pedidos, Salir",
+    "description": "",
+    "id": "test-probar-opciones-mi-cuenta--pedidos--salir",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Opciones.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-14T19:17:20.347Z",
+        "line": 3,
+        "name": "Registrar a un usuario con un user y password existente con nombre y apellido",
+        "description": "",
+        "id": "test-registrar-a-un-usuario;registrar-a-un-usuario-con-un-user-y-password-existente-con-nombre-y-apellido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 729609700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "abrir navegador",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3458705900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entrar en la pagina web",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.entrar_en_la_pagina_web()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59631400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Opciones",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507188600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Registrarse",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.registrarse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47669200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Registrarse IniciarSesion",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.registrarse_iniciarsesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2878453800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "introducir nombre y password existentes",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.introducir_nombre_y_password_existentes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 894528900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar a aceptar",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.clicar_a_aceptar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6227191100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usuario puede navegar por la pagina de inicio cuenta existente",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.usuario_puede_navegar_por_la_pagina_de_inicio_cuenta_existente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:17:35.160Z",
+        "line": 13,
+        "name": "Registrar a un usuario con un user y password nuevo con nombre y apellido",
+        "description": "",
+        "id": "test-registrar-a-un-usuario;registrar-a-un-usuario-con-un-user-y-password-nuevo-con-nombre-y-apellido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 638073200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "abrir navegador",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4868429600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "entrar en la pagina web",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.entrar_en_la_pagina_web()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56848400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Opciones",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 816820900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Registrarse",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.registrarse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57845600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Registrarse IniciarSesion",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.registrarse_iniciarsesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2756121900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "introducir nombre y password",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.introducir_nombre_y_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2984252700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicar a aceptar",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.clicar_a_aceptar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153985300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "usuario puede navegar por la pagina de inicio cuenta nueva",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.usuario_puede_navegar_por_la_pagina_de_inicio_cuenta_nueva()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-14T19:17:49.496Z",
+        "line": 23,
+        "name": "Registrar a un usuario con un user y password nuevo sin nombre y apellido",
+        "description": "",
+        "id": "test-registrar-a-un-usuario;registrar-a-un-usuario-con-un-user-y-password-nuevo-sin-nombre-y-apellido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 644466700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "abrir navegador",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.abrir_navegador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3437671400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "entrar en la pagina web",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.entrar_en_la_pagina_web()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49918700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Opciones",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.Opciones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460891900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Registrarse",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.registrarse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52858500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Registrarse IniciarSesion",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.registrarse_iniciarsesion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2613590400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "introducir Correo y password",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.introducir_Correo_y_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2998594300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicar a aceptar",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.clicar_a_aceptar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6243289800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Comprobar si deja registrarse sin nombre",
+            "match": {
+              "location": "StepDefinitions.RegistrarseSteps.comprobar_si_deja_registrarse_sin_nombre()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Registrar a un usuario",
+    "description": "",
+    "id": "test-registrar-a-un-usuario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Registrarse.feature",
+    "tags": []
+  }
+]
